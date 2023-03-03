@@ -1,3 +1,6 @@
+"""Принцип разделения интерфейса состоит в том, что не стоит добавлять слишком
+много программных членов (например, методов) в интерфейс."""
+
 from abc import abstractmethod
 
 
@@ -30,7 +33,6 @@ class PhotoCopier(Printer, Scanner):
 
     def scan(self, document):
         pass
-
 
 # class Machine:
 #     def print(self, document):

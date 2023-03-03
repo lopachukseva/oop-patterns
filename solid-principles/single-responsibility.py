@@ -1,3 +1,7 @@
+"""У каждого класса должна быть своя основная ответственность,
+и он не должен брать на себя другие ответственности."""
+
+
 class PersistenceManager:
     @staticmethod
     def save_to_file(notepad, file):
